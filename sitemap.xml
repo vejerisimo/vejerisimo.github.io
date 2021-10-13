@@ -103,6 +103,36 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.vejerísimo.com/en/mobile/prices/</loc>
+    <lastmod>2021-10-13</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/mobile/prices/</loc>
+    <lastmod>2021-10-13</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/mobile/prices/</loc>
+    <lastmod>2021-10-13</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/mobile/prices/</loc>
+    <lastmod>2021-10-13</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/mobile/prices/</loc>
+    <lastmod>2021-10-13</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.vejerísimo.com/en/mobile/</loc>
     <lastmod>2021-10-13</lastmod>
     <priority>0.8</priority>
@@ -130,36 +160,6 @@
     <loc>https://www.vejerísimo.com/de/mobile/</loc>
     <lastmod>2021-10-13</lastmod>
     <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/mobile/form/</loc>
-    <lastmod>2021-10-13</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/mobile/form/</loc>
-    <lastmod>2021-10-13</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/mobile/form/</loc>
-    <lastmod>2021-10-13</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/mobile/form/</loc>
-    <lastmod>2021-10-13</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/mobile/form/</loc>
-    <lastmod>2021-10-13</lastmod>
-    <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
