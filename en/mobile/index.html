@@ -2,21 +2,23 @@
         console.log("setting locale in locale storage en")
         localStorage.setItem('locale', "en");
       </script> <section class=white> <hr/> <div class=extra-small> <p class=text-center> (c) 2021 <a href="/en/">VEJERÍSIMO</a> - <a href="/legal-notice-en/" target=_blank>Legal Notice</a> </p> <p class=text-center> <small>VTAR/CA/00496</small> </p> </div> </section> </div> <link async="" href="https://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand" rel=stylesheet /> <link href="/stylesheets/mobile.css" rel=stylesheet async=true /> <p class=center style="position: fixed; bottom: 5px; right: 5px;"> <a href="https://wa.me/34638188682" itemprop=whatsapp><img height=64px src="/images/WhatsApp_Logo_1.png" width=64px /></a> </p> </body> </html> <script>
-  $('.carousel').on('touchstart', function(event){
-      const xClick = event.originalEvent.touches[0].pageX;
-      $(this).one('touchmove', function(event){
-          const xMove = event.originalEvent.touches[0].pageX;
-          const sensitivityInPx = 5;
+  if (window.jQuery) {
+    $('.carousel').on('touchstart', function(event){
+        const xClick = event.originalEvent.touches[0].pageX;
+        $(this).one('touchmove', function(event){
+            const xMove = event.originalEvent.touches[0].pageX;
+            const sensitivityInPx = 5;
   
-          if( Math.floor(xClick - xMove) > sensitivityInPx ){
-              $(this).carousel('next');
-          }
-          else if( Math.floor(xClick - xMove) < -sensitivityInPx ){
-              $(this).carousel('prev');
-          }
-      });
-      $(this).on('touchend', function(){
-          $(this).off('touchmove');
-      });
-  });
+            if( Math.floor(xClick - xMove) > sensitivityInPx ){
+                $(this).carousel('next');
+            }
+            else if( Math.floor(xClick - xMove) < -sensitivityInPx ){
+                $(this).carousel('prev');
+            }
+        });
+        $(this).on('touchend', function(){
+            $(this).off('touchmove');
+        });
+    });
+  };
 </script>
